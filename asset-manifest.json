@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/SFP-Badminton-Club/static/css/main.2d2aad7c.css",
+    "main.js": "/SFP-Badminton-Club/static/js/main.7b56df57.js",
+    "static/js/453.1b6cbde4.chunk.js": "/SFP-Badminton-Club/static/js/453.1b6cbde4.chunk.js",
+    "index.html": "/SFP-Badminton-Club/index.html",
+    "main.2d2aad7c.css.map": "/SFP-Badminton-Club/static/css/main.2d2aad7c.css.map",
+    "main.7b56df57.js.map": "/SFP-Badminton-Club/static/js/main.7b56df57.js.map",
+    "453.1b6cbde4.chunk.js.map": "/SFP-Badminton-Club/static/js/453.1b6cbde4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2d2aad7c.css",
+    "static/js/main.7b56df57.js"
+  ]
+}

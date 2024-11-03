@@ -1,0 +1,60 @@
+/* HOT.css */
+
+/* Đảm bảo bố cục linh hoạt với màn hình nhỏ */
+.HOT {
+  padding: 20px;
+}
+
+.image-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Tự động thay đổi số cột tùy theo kích thước màn hình */
+  gap: 20px;
+}
+
+.image-item {
+  position: relative;
+  text-align: center;
+}
+
+.img-fluid {
+  width: 100%; /* Đảm bảo hình ảnh chiếm toàn bộ chiều rộng khối cha */
+  height: auto; /* Giữ nguyên tỉ lệ hình ảnh */
+  object-fit: cover; /* Cắt hình ảnh để vừa khít khối chứa nếu cần */
+  border-radius: 8px;
+}
+
+.overlay {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: #ec3737;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.product-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.product-description {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* Điều chỉnh riêng cho màn hình nhỏ */
+@media (max-width: 768px) {
+  .img-fluid {
+    width: 100%; /* Đảm bảo hình ảnh hiển thị tốt trên màn hình nhỏ */
+  }
+  
+  .product-name {
+    font-size: 1rem;
+  }
+
+  .product-description {
+    font-size: 0.9rem;
+  }
+}

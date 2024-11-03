@@ -1,0 +1,77 @@
+/* ContactUs.css */
+.contact-us-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-us-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 28px;
+  }
+  
+  .contact-us-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-us-form label {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .contact-us-form input[type="text"],
+  .contact-us-form input[type="email"],
+  .contact-us-form textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 100%;
+  }
+  
+  .contact-us-form input[type="text"]:focus,
+  .contact-us-form input[type="email"]:focus,
+  .contact-us-form textarea:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  .contact-us-form textarea {
+    resize: vertical;
+    min-height: 150px;
+  }
+  
+  .contact-us-form button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-us-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .contact-us-form p {
+    text-align: center;
+    color: green;
+    font-size: 16px;
+  }
+  
+  .contact-us-form div {
+    margin-bottom: 15px;
+  }
+  

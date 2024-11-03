@@ -1,0 +1,21 @@
+.level-container {
+    padding: 20px;
+}
+
+.level-section {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.level-section h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.level-section p {
+    font-size: 1em;
+    color: #555;
+}

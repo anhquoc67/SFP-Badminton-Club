@@ -1,0 +1,78 @@
+/* Register.css */
+.register-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .register-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+  }
+  
+  .register-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .register-form label {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .register-form input[type="text"],
+  .register-form input[type="email"],
+  .register-form input[type="password"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 100%;
+  }
+  
+  .register-form input[type="text"]:focus,
+  .register-form input[type="email"]:focus,
+  .register-form input[type="password"]:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  .register-form button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .register-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .register-form .error-message {
+    color: red;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .register-form .success-message {
+    color: green;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .register-form div {
+    margin-bottom: 15px;
+  }
+  
